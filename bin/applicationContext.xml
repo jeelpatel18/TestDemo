@@ -20,8 +20,8 @@
     	<!--  Setup constructor injection -->
     	<constructor-arg ref = "myFortuneService" />
     		
-    </bean>
-    
+    </bean>         
+      
     <bean id="newCoach" class="springdemo.VollyballCoach">
     
     </bean>
