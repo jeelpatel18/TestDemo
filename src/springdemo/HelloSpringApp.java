@@ -9,7 +9,7 @@ public class HelloSpringApp {
 		
 		//Load Spring configuration file
 		ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
-		
+		System.out.println("Jeel here");
 		
 		//Retrieve Bean from Spring Container
 		
